@@ -1,0 +1,33 @@
+# colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+
+# C++ / CMake
+*.o
+*.so
+*.a
+CMakeCache.txt
+CMakeFiles/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets and local config
+.env
+*.pem
+*.key
